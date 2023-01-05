@@ -20,4 +20,13 @@
     <servlet-name>HelloServlet</servlet-name>
     <url-pattern>/hello</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Buna</servlet-name>
+    <jsp-file>/home.html</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Buna</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
 </web-app>
